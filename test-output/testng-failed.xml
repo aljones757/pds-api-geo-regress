@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="getRequest.GetData">
+      <class name="parameters.DataProviderInTest">
         <methods>
-          <include name="testResponsecode"/>
+          <include name="testGeoLookup"/>
         </methods>
-      </class> <!-- getRequest.GetData -->
+      </class> <!-- parameters.DataProviderInTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
